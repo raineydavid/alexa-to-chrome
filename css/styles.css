@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+ text-align: center;
+ font-family: 'Fajalla One';
+ font-size: 20px;
+  background: #AFBE8F;
+}
+
+input{
+font-size: 24px;
+}
+
+  
+
+
+.fill {
+  background: white;
+  color: red;
+  border-bottom: 2px black solid;
+  font-family: 'Shadows Into Light', cursive;
+      padding: 0 6px;
+    margin: 4px;
+  }
+
+  background: #e6eaf0;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+  
+input{
+    font-size: 24px;
+ }
+.fill{
+  background: white;
+  color: red;
+  border-bottom: 2px black solid;
+  font-family: 'Shadows Into Light', cursive;
+  /*padding top and bottom 0, left and right 6px*/
+  padding: 0 6px;
+  margin: 4px;
+}
+
+
+.instructions {
+    font-size: 22px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+button{
+    margin: 40px;
+     font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: background-color 300ms;
+  }
+.save {
+     background-color: #999;
+}
+
+.wizard {
+     background-color: #04471C;
+}
+.unsaved {
+    background-color: #40ad40;
+    animation: pulse 1s infinite ease-in-out;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.15);
+    }
+}
